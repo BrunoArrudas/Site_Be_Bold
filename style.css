@@ -1,35 +1,72 @@
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #FDFBD4;
+body {
+  background-color: #FDFBD4;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.4;
 }
 
+/* -------------------------*/
 .logotipo-central {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 #img_central {
-    width: 20%;
-    height: 20%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
-/* ----------------------------------------- */
 
+/* ------------------------ */
 .texto1-central {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
 #formtxt1 {
-    color: #9D09BB;
-    font-family: 'IBM Plex Sans', sans-serif;
+  color: #9D09BB;
+  font-size: 5vw;
+  font-weight: 600;
 }
 
-/* ----------------------------------------- */
+@media (min-width: 768px) {
+  #formtxt1 {
+    font-size: 1.8rem;
+  }
+}
 
+/* ------------------------ */
+.video-wrapper {
+  max-width: 900px;
+  margin: 50px auto 0;
+  padding: 0 20px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ------------------------ */
 
