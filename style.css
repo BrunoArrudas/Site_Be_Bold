@@ -70,3 +70,61 @@ body {
 
 /* ------------------------ */
 
+/* Seção sobre a Teacher */
+.sobre-teacher {
+  background-color: #FDFBD4;
+  padding: 40px 20px;
+}
+
+.teacher-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.teacher-texto {
+  max-width: 500px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.teacher-texto .assinatura {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #9D09BB;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.teacher-texto .assinatura span {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.teacher-foto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+  .teacher-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .teacher-texto {
+    text-align: left;
+  }
+}
+
