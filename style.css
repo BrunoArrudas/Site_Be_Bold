@@ -70,6 +70,16 @@ body {
 
 /* ------------------------ */
 
+.divisoria{
+    background-color: #9D09BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    height: 50px;
+}
+
 /* Seção sobre a Teacher */
 .sobre-teacher {
   background-color: #FDFBD4;
@@ -88,7 +98,7 @@ body {
 .teacher-texto {
   max-width: 500px;
   color: #333;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   line-height: 1.6;
   text-align: justify;
   font-family: 'IBM Plex Sans', sans-serif;
